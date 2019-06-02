@@ -29,14 +29,14 @@ The data is in a Python pickle file "prob_fitting_10.data". For each word, e.g. 
 	  'y_fitting': [0.032, 0.031, ... , 0.595]}, # the proportion after polynomial curve fitting 
   'gay_1_adjective_2': 
   	{'definition': 'Light-hearted and carefree.', 
-	    'x': [1830, 1840, ... , 2010], 
-	    'y': [0.972, 0.958, ... , 0.130], 
-	    'y_fitting': [0.979, 0.9667, ... , 0.037]},
+	  'x': [1830, 1840, ... , 2010], 
+	  'y': [0.972, 0.958, ... , 0.130], 
+	  'y_fitting': [0.979, 0.9667, ... , 0.037]},
   'gay_1_noun_1': 
   	{'definition': 'A homosexual, especially a man.', 
-	    'x': [1830, 1840, ... , 2010], 
-	    'y': [0.0, 0.0, ... , 0.364], 
-	    'y_fitting': [-0.01, 0.002, ... , 0.368]}, 
+	  'x': [1830, 1840, ... , 2010], 
+	  'y': [0.0, 0.0, ... , 0.364], 
+	  'y_fitting': [-0.01, 0.002, ... , 0.368]}, 
   'gay_1_adjective_3': 
 	{'definition': 'Foolish, stupid, or unimpressive.', 
 	  'x': [1830, 1840, ... , 2010], 
