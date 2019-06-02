@@ -20,11 +20,11 @@ The poly_vocab.txt file lists the 3220 polysemous words that can be tracked via 
 
 The data is in a Python pickle file "prob_fitting_10.data". For each word, e.g. "gay", we give its diachronic sense information in dict type as shown below: 
 
-```
+```python
 {
   'gay_1_adjective_1': 
   	{'definition': '(of a person) homosexual (used especially of a man)',   # from Oxford dictionary
-	  'x': [1830, 1840,  ... , 2010],   # year information with the with time interval $\Delta t = 10$.
+	  'x': [1830, 1840,  ... , 2010],   # year information with the time interval ∆t = 10.
 	  'y': [0.028, 0.042, ... , 0.573],  #  the proportion of the sense at each time inerval
 	  'y_fitting': [0.032, 0.031, ... , 0.595]}, # the proportion after  polynomial curve fitting 
   'gay_1_adjective_2': 
