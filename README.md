@@ -6,7 +6,7 @@ This project releases the diachronic sense modeling data in the paper:
 
 With the data and a visualize tool, one can easily track the evolvement of word meaning from the sense level. An example of the word "gay" is shown in the Figure.
 
-![gay example](https://github.com/iris2hu/diachronic-sense-modeling/blob/master/example.jpg){ width=50% }
+![gay example](https://github.com/iris2hu/diachronic-sense-modeling/blob/master/example.jpg)
 
 ## Vocabulary
 
